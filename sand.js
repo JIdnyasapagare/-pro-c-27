@@ -24,7 +24,7 @@ World.add(world,this.body);
 		fill("brown");
 		strokeWeight(4);
 		stroke("black");
-		ellipse(0,0,this.width,this.height);
+		ellipse(0,0,this.r,this.r);
 		pop();
 	}
 }
